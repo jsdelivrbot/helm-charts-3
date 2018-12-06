@@ -37,12 +37,12 @@ rabbitmq:
   ## RabbitMQ application username
   ## ref: https://github.com/bitnami/bitnami-docker-rabbitmq#environment-variables
   ##
-  username: user
+  username: hubpop
 
   ## RabbitMQ application password
   ## ref: https://github.com/bitnami/bitnami-docker-rabbitmq#environment-variables
   ##
-  # password:
+  password:hubpop$%
 
   ## Erlang cookie to determine whether different nodes are allowed to communicate with each other
   ## ref: https://github.com/bitnami/bitnami-docker-rabbitmq#environment-variables
@@ -90,7 +90,7 @@ rabbitmq:
 
 ## Kubernetes service type
 service:
-  type: ClusterIP
+  type: NodePort
   ## Node port
   ## ref: https://github.com/bitnami/bitnami-docker-rabbitmq#environment-variables
   ##
