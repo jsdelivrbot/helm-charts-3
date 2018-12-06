@@ -16,8 +16,8 @@ extraConfig: |
 definitions:
   users: |-
 #   {
-#     "name": "myUsername",
-#     "password": "myPassword",
+#     "name": "hubpop",
+#     "password": "hubpop$%",
 #     "tags": "administrator"
 #   }
   vhosts: |-
@@ -267,7 +267,7 @@ service:
 
   loadBalancerIP: ""
   loadBalancerSourceRanges: []
-  type: ClusterIP
+  type: NodePort
 
 podManagementPolicy: OrderedReady
 
