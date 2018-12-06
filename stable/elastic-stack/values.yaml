@@ -4,7 +4,7 @@
 
 kibana:
   env:
-    ELASTICSEARCH_URL: http://http.default.svc.cluster.local:9200
+    ELASTICSEARCH_URL: https://112.160.104.138:49200
 
 logstash:
   enabled: true
@@ -57,7 +57,7 @@ nginx-ldapauth-proxy:
   # secrets:
   #   ldapBindPassword: PASSWORD
 elasticsearch-curator:
-  enabled: false
+  enabled: true
 
 elasticsearch-exporter:
-  enabled: false
+  enabled: true
